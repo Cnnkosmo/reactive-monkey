@@ -1,0 +1,9 @@
+[ @file = "/Users/rtk/Documents/reactive-monkey/reactive-monkey.mc"; @line = 1; @symbol_moduledef = [reactive_monkey,1,7,22]; ]
+module reactive_monkey {
+    [ @file = "/Users/rtk/Documents/reactive-monkey/reactive-monkey.mc"; @line = 1; ]
+    <init> {
+    }
+}
+[ @file = "/Users/rtk/Documents/reactive-monkey/reactive-monkey.mc"; @line = 1; ]
+<init> {
+}

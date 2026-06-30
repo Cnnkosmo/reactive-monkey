@@ -1,0 +1,1576 @@
+[ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [reactive_monkey,7,7,22]; ]
+module reactive_monkey {
+    [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Rez,8,11,14]; ]
+    module Rez {
+        [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 9; @symbol_moduledef = [Styles,9,15,21]; ]
+        module Styles {
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 9; ]
+            <init> {
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 10; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,10,19,68]; ]
+            module prompt_font_enhanced_readability__body_with_title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 10; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 11; @position = 22; @symbol_constdef = [exclude,11,22,29]; @symbol_type<0> = [Boolean,11,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 14; @symbol_moduledef = [system_size__menu_header,14,19,43]; ]
+            module system_size__menu_header {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 14; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 15; @position = 22; @symbol_constdef = [width,15,22,27]; @symbol_type<0> = [Number,15,31,37]; ]
+                const width as Number = 454;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 16; @position = 22; @symbol_constdef = [height,16,22,28]; @symbol_type<0> = [Number,16,32,38]; ]
+                const height as Number = 169;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 19; @symbol_moduledef = [system_loc__hint_button_left_bottom,19,19,54]; ]
+            module system_loc__hint_button_left_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 19; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 20; @position = 22; @symbol_constdef = [x,20,22,23]; @symbol_type<0> = [Number,20,27,33]; ]
+                const x as Number = 15;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 21; @position = 22; @symbol_constdef = [y,21,22,23]; @symbol_type<0> = [Number,21,27,33]; ]
+                const y as Number = 291;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 24; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,24,19,66]; ]
+            module prompt_font_enhanced_readability__body_no_title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 24; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 25; @position = 22; @symbol_constdef = [exclude,25,22,29]; @symbol_type<0> = [Boolean,25,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 28; @symbol_moduledef = [prompt_loc__body_no_title,28,19,44]; ]
+            module prompt_loc__body_no_title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 28; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 29; @position = 22; @symbol_constdef = [x,29,22,23]; @symbol_type<0> = [Number,29,27,33]; ]
+                const x as Number = 56;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 30; @position = 22; @symbol_constdef = [y,30,22,23]; @symbol_type<0> = [Number,30,27,33]; ]
+                const y as Number = 89;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 33; @symbol_moduledef = [system_icon_dark__about,33,19,42]; ]
+            module system_icon_dark__about {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 33; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 34; @position = 22; @symbol_constdef = [filename,34,22,30]; @symbol_type<0> = [String,34,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__about.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 35; @position = 22; @symbol_constdef = [compress,35,22,30]; @symbol_type<0> = [String,35,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 36; @position = 22; @symbol_constdef = [dithering,36,22,31]; @symbol_type<0> = [String,36,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 37; @position = 22; @symbol_constdef = [automaticPalette,37,22,38]; @symbol_type<0> = [String,37,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 38; @position = 22; @symbol_constdef = [packingFormat,38,22,35]; @symbol_type<0> = [String,38,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 41; @symbol_moduledef = [system_icon_light__question,41,19,46]; ]
+            module system_icon_light__question {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 41; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 42; @position = 22; @symbol_constdef = [filename,42,22,30]; @symbol_type<0> = [String,42,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__question.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 43; @position = 22; @symbol_constdef = [compress,43,22,30]; @symbol_type<0> = [String,43,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 44; @position = 22; @symbol_constdef = [dithering,44,22,31]; @symbol_type<0> = [String,44,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 45; @position = 22; @symbol_constdef = [automaticPalette,45,22,38]; @symbol_type<0> = [String,45,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 46; @position = 22; @symbol_constdef = [packingFormat,46,22,35]; @symbol_type<0> = [String,46,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 49; @symbol_moduledef = [system_loc__hint_button_left_top,49,19,51]; ]
+            module system_loc__hint_button_left_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 49; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 50; @position = 22; @symbol_constdef = [exclude,50,22,29]; @symbol_type<0> = [Boolean,50,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 53; @symbol_moduledef = [prompt_font__title,53,19,37]; ]
+            module prompt_font__title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 53; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 54 22 ]
+                    symbol [ Graphics %tmp.1 54 38 46 ];
+                    %tmp.1 = getm $.Toybox.Graphics;
+                    symbol [ TEXT_JUSTIFY_CENTER %tmp.2 54 47 66 ];
+                    %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_CENTER;
+                    symbol [ Graphics %tmp.3 54 67 75 ];
+                    %tmp.3 = getm $.Toybox.Graphics;
+                    symbol [ TEXT_JUSTIFY_VCENTER %tmp.4 54 76 96 ];
+                    %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                    %tmp.5 = bitor %tmp.2 %tmp.4;
+                    putv self :justification %tmp.5;
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 55 22 ]
+                    symbol [ Graphics %tmp.6 55 29 37 ];
+                    %tmp.6 = getm $.Toybox.Graphics;
+                    symbol [ FONT_GLANCE_NUMBER %tmp.7 55 38 56 ];
+                    %tmp.7 = getv %tmp.6 :FONT_GLANCE_NUMBER;
+                    putv self :font %tmp.7;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 54; @position = 22; @symbol_constdef = [justification,54,22,35]; ]
+                const justification;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 55; @position = 22; @symbol_constdef = [font,55,22,26]; ]
+                const font;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 58; @symbol_moduledef = [system_icon_dark__discard,58,19,44]; ]
+            module system_icon_dark__discard {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 58; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 59; @position = 22; @symbol_constdef = [filename,59,22,30]; @symbol_type<0> = [String,59,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__discard.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 60; @position = 22; @symbol_constdef = [compress,60,22,30]; @symbol_type<0> = [String,60,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 61; @position = 22; @symbol_constdef = [dithering,61,22,31]; @symbol_type<0> = [String,61,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 62; @position = 22; @symbol_constdef = [automaticPalette,62,22,38]; @symbol_type<0> = [String,62,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 63; @position = 22; @symbol_constdef = [packingFormat,63,22,35]; @symbol_type<0> = [String,63,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 66; @symbol_moduledef = [system_size__menu_item,66,19,41]; ]
+            module system_size__menu_item {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 66; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 67; @position = 22; @symbol_constdef = [width,67,22,27]; @symbol_type<0> = [Number,67,31,37]; ]
+                const width as Number = 454;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 68; @position = 22; @symbol_constdef = [height,68,22,28]; @symbol_type<0> = [Number,68,32,38]; ]
+                const height as Number = 116;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 71; @symbol_moduledef = [system_color_dark__text,71,19,42]; ]
+            module system_color_dark__text {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 71; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 73 22 ]
+                    symbol [ Graphics %tmp.8 73 35 43 ];
+                    %tmp.8 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.9 73 44 61 ];
+                    %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.9;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 72; @position = 22; @symbol_constdef = [color,72,22,27]; @symbol_type<0> = [Number,72,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 73; @position = 22; @symbol_constdef = [background,73,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 76; @symbol_moduledef = [system_icon_destructive__discard,76,19,51]; ]
+            module system_icon_destructive__discard {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 76; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 77; @position = 22; @symbol_constdef = [filename,77,22,30]; @symbol_type<0> = [String,77,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__discard.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 78; @position = 22; @symbol_constdef = [dithering,78,22,31]; @symbol_type<0> = [String,78,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 79; @position = 22; @symbol_constdef = [packingFormat,79,22,35]; @symbol_type<0> = [String,79,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 82; @symbol_moduledef = [system_icon_dark__hint_action_menu,82,19,53]; ]
+            module system_icon_dark__hint_action_menu {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 82; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 83; @position = 22; @symbol_constdef = [filename,83,22,30]; @symbol_type<0> = [String,83,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__hint_button_right_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 84; @position = 22; @symbol_constdef = [dithering,84,22,31]; @symbol_type<0> = [String,84,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 85; @position = 22; @symbol_constdef = [packingFormat,85,22,35]; @symbol_type<0> = [String,85,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 88; @symbol_moduledef = [prompt_size__title,88,19,37]; ]
+            module prompt_size__title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 88; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 89; @position = 22; @symbol_constdef = [width,89,22,27]; @symbol_type<0> = [Number,89,31,37]; ]
+                const width as Number = 360;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 90; @position = 22; @symbol_constdef = [height,90,22,28]; @symbol_type<0> = [Number,90,32,38]; ]
+                const height as Number = 48;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 93; @symbol_moduledef = [confirmation_font__body,93,19,42]; ]
+            module confirmation_font__body {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 93; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 94 22 ]
+                    symbol [ Graphics %tmp.10 94 38 46 ];
+                    %tmp.10 = getm $.Toybox.Graphics;
+                    symbol [ TEXT_JUSTIFY_CENTER %tmp.11 94 47 66 ];
+                    %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                    symbol [ Graphics %tmp.12 94 67 75 ];
+                    %tmp.12 = getm $.Toybox.Graphics;
+                    symbol [ TEXT_JUSTIFY_VCENTER %tmp.13 94 76 96 ];
+                    %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_VCENTER;
+                    %tmp.14 = bitor %tmp.11 %tmp.13;
+                    putv self :justification %tmp.14;
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 95 22 ]
+                    symbol [ Graphics %tmp.15 95 29 37 ];
+                    %tmp.15 = getm $.Toybox.Graphics;
+                    symbol [ FONT_TINY %tmp.16 95 38 47 ];
+                    %tmp.16 = getv %tmp.15 :FONT_TINY;
+                    putv self :font %tmp.16;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 94; @position = 22; @symbol_constdef = [justification,94,22,35]; ]
+                const justification;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 95; @position = 22; @symbol_constdef = [font,95,22,26]; ]
+                const font;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 98; @symbol_moduledef = [system_color_dark__background,98,19,48]; ]
+            module system_color_dark__background {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 98; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 99; @position = 22; @symbol_constdef = [color,99,22,27]; @symbol_type<0> = [Number,99,31,37]; ]
+                const color as Number = 0x000000;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 100; @position = 22; @symbol_constdef = [background,100,22,32]; @symbol_type<0> = [Number,100,36,42]; ]
+                const background as Number = 0x000000;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 103; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,103,19,64]; ]
+            module system_icon_destructive__hint_button_left_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 103; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 104; @position = 22; @symbol_constdef = [filename,104,22,30]; @symbol_type<0> = [String,104,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__hint_button_left_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 105; @position = 22; @symbol_constdef = [dithering,105,22,31]; @symbol_type<0> = [String,105,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 106; @position = 22; @symbol_constdef = [packingFormat,106,22,35]; @symbol_type<0> = [String,106,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 109; @symbol_moduledef = [system_size__launch_icon,109,19,43]; ]
+            module system_size__launch_icon {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 109; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 110; @position = 22; @symbol_constdef = [scaleX,110,22,28]; @symbol_type<0> = [Number,110,32,38]; ]
+                const scaleX as Number = 65;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 111; @position = 22; @symbol_constdef = [scaleY,111,22,28]; @symbol_type<0> = [Number,111,32,38]; ]
+                const scaleY as Number = 65;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 112; @position = 22; @symbol_constdef = [scaleRelativeTo,112,22,37]; @symbol_type<0> = [String,112,41,47]; ]
+                const scaleRelativeTo as String = "screen";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 115; @symbol_moduledef = [confirmation_input__confirm,115,19,46]; ]
+            module confirmation_input__confirm {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 115; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 116 22 ]
+                    symbol [ WatchUi %tmp.17 116 31 38 ];
+                    %tmp.17 = getm $.Toybox.WatchUi;
+                    symbol [ KEY_ENTER %tmp.18 116 39 48 ];
+                    %tmp.18 = getv %tmp.17 :KEY_ENTER;
+                    putv self :button %tmp.18;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 116; @position = 22; @symbol_constdef = [button,116,22,28]; ]
+                const button;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 119; @symbol_moduledef = [prompt_font__body_with_title,119,19,47]; ]
+            module prompt_font__body_with_title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 119; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 120 22 ]
+                    symbol [ Graphics %tmp.19 120 38 46 ];
+                    %tmp.19 = getm $.Toybox.Graphics;
+                    symbol [ TEXT_JUSTIFY_CENTER %tmp.20 120 47 66 ];
+                    %tmp.20 = getv %tmp.19 :TEXT_JUSTIFY_CENTER;
+                    putv self :justification %tmp.20;
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 121 22 ]
+                    symbol [ Graphics %tmp.21 121 29 37 ];
+                    %tmp.21 = getm $.Toybox.Graphics;
+                    symbol [ FONT_XTINY %tmp.22 121 38 48 ];
+                    %tmp.22 = getv %tmp.21 :FONT_XTINY;
+                    putv self :font %tmp.22;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 120; @position = 22; @symbol_constdef = [justification,120,22,35]; ]
+                const justification;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 121; @position = 22; @symbol_constdef = [font,121,22,26]; ]
+                const font;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 124; @symbol_moduledef = [confirmation_loc__body,124,19,41]; ]
+            module confirmation_loc__body {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 124; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 125; @position = 22; @symbol_constdef = [x,125,22,23]; @symbol_type<0> = [Number,125,27,33]; ]
+                const x as Number = 70;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 126; @position = 22; @symbol_constdef = [y,126,22,23]; @symbol_type<0> = [Number,126,27,33]; ]
+                const y as Number = 70;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 129; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,129,19,67]; ]
+            module system_icon_destructive__hint_button_left_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 129; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 130; @position = 22; @symbol_constdef = [filename,130,22,30]; @symbol_type<0> = [String,130,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__hint_button_left_bottom.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 131; @position = 22; @symbol_constdef = [dithering,131,22,31]; @symbol_type<0> = [String,131,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 132; @position = 22; @symbol_constdef = [packingFormat,132,22,35]; @symbol_type<0> = [String,132,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 135; @symbol_moduledef = [prompt_color_dark__background,135,19,48]; ]
+            module prompt_color_dark__background {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 135; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 136; @position = 22; @symbol_constdef = [color,136,22,27]; @symbol_type<0> = [Number,136,31,37]; ]
+                const color as Number = 0x000000;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 137; @position = 22; @symbol_constdef = [background,137,22,32]; @symbol_type<0> = [Number,137,36,42]; ]
+                const background as Number = 0x000000;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 140; @symbol_moduledef = [system_icon_destructive__hint_action_menu,140,19,60]; ]
+            module system_icon_destructive__hint_action_menu {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 140; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 141; @position = 22; @symbol_constdef = [filename,141,22,30]; @symbol_type<0> = [String,141,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__hint_button_right_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 142; @position = 22; @symbol_constdef = [dithering,142,22,31]; @symbol_type<0> = [String,142,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 143; @position = 22; @symbol_constdef = [packingFormat,143,22,35]; @symbol_type<0> = [String,143,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 146; @symbol_moduledef = [system_loc__hint_action_menu,146,19,47]; ]
+            module system_loc__hint_action_menu {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 146; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 147; @position = 22; @symbol_constdef = [x,147,22,23]; @symbol_type<0> = [Number,147,27,33]; ]
+                const x as Number = 353;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 148; @position = 22; @symbol_constdef = [y,148,22,23]; @symbol_type<0> = [Number,148,27,33]; ]
+                const y as Number = 77;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 151; @symbol_moduledef = [confirmation_icon__hint_confirm,151,19,50]; ]
+            module confirmation_icon__hint_confirm {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 151; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 152; @position = 22; @symbol_constdef = [filename,152,22,30]; @symbol_type<0> = [String,152,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_completion.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 153; @position = 22; @symbol_constdef = [dithering,153,22,31]; @symbol_type<0> = [String,153,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 154; @position = 22; @symbol_constdef = [packingFormat,154,22,35]; @symbol_type<0> = [String,154,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 157; @symbol_moduledef = [system_loc__hint_button_left_middle,157,19,54]; ]
+            module system_loc__hint_button_left_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 157; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 158; @position = 22; @symbol_constdef = [x,158,22,23]; @symbol_type<0> = [Number,158,27,33]; ]
+                const x as Number = 2;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 159; @position = 22; @symbol_constdef = [y,159,22,23]; @symbol_type<0> = [Number,159,27,33]; ]
+                const y as Number = 181;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 162; @symbol_moduledef = [prompt_size__body_no_title,162,19,45]; ]
+            module prompt_size__body_no_title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 162; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 163; @position = 22; @symbol_constdef = [width,163,22,27]; @symbol_type<0> = [Number,163,31,37]; ]
+                const width as Number = 342;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 164; @position = 22; @symbol_constdef = [height,164,22,28]; @symbol_type<0> = [Number,164,32,38]; ]
+                const height as Number = 275;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 167; @symbol_moduledef = [system_icon_light__hint_button_left_top,167,19,58]; ]
+            module system_icon_light__hint_button_left_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 167; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 168; @position = 22; @symbol_constdef = [filename,168,22,30]; @symbol_type<0> = [String,168,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__hint_button_left_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 169; @position = 22; @symbol_constdef = [dithering,169,22,31]; @symbol_type<0> = [String,169,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 170; @position = 22; @symbol_constdef = [packingFormat,170,22,35]; @symbol_type<0> = [String,170,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 173; @symbol_moduledef = [prompt_color_light__background,173,19,49]; ]
+            module prompt_color_light__background {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 173; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 174; @position = 22; @symbol_constdef = [color,174,22,27]; @symbol_type<0> = [Number,174,31,37]; ]
+                const color as Number = 0x000000;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 175; @position = 22; @symbol_constdef = [background,175,22,32]; @symbol_type<0> = [Number,175,36,42]; ]
+                const background as Number = 0x000000;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 178; @symbol_moduledef = [confirmation_input__delete,178,19,45]; ]
+            module confirmation_input__delete {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 178; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 179 22 ]
+                    symbol [ WatchUi %tmp.23 179 31 38 ];
+                    %tmp.23 = getm $.Toybox.WatchUi;
+                    symbol [ KEY_ENTER %tmp.24 179 39 48 ];
+                    %tmp.24 = getv %tmp.23 :KEY_ENTER;
+                    putv self :button %tmp.24;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 179; @position = 22; @symbol_constdef = [button,179,22,28]; ]
+                const button;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 182; @symbol_moduledef = [system_icon_dark__hint_button_left_top,182,19,57]; ]
+            module system_icon_dark__hint_button_left_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 182; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 183; @position = 22; @symbol_constdef = [filename,183,22,30]; @symbol_type<0> = [String,183,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__hint_button_left_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 184; @position = 22; @symbol_constdef = [dithering,184,22,31]; @symbol_type<0> = [String,184,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 185; @position = 22; @symbol_constdef = [packingFormat,185,22,35]; @symbol_type<0> = [String,185,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 188; @symbol_moduledef = [system_input__action_menu,188,19,44]; ]
+            module system_input__action_menu {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 188; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 189 22 ]
+                    symbol [ WatchUi %tmp.25 189 31 38 ];
+                    %tmp.25 = getm $.Toybox.WatchUi;
+                    symbol [ KEY_ENTER %tmp.26 189 39 48 ];
+                    %tmp.26 = getv %tmp.25 :KEY_ENTER;
+                    putv self :button %tmp.26;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 189; @position = 22; @symbol_constdef = [button,189,22,28]; ]
+                const button;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 192; @symbol_moduledef = [system_icon_light__save,192,19,42]; ]
+            module system_icon_light__save {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 192; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 193; @position = 22; @symbol_constdef = [filename,193,22,30]; @symbol_type<0> = [String,193,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__save.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 194; @position = 22; @symbol_constdef = [compress,194,22,30]; @symbol_type<0> = [String,194,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 195; @position = 22; @symbol_constdef = [dithering,195,22,31]; @symbol_type<0> = [String,195,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 196; @position = 22; @symbol_constdef = [automaticPalette,196,22,38]; @symbol_type<0> = [String,196,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 197; @position = 22; @symbol_constdef = [packingFormat,197,22,35]; @symbol_type<0> = [String,197,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 200; @symbol_moduledef = [prompt_color_light__body,200,19,43]; ]
+            module prompt_color_light__body {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 200; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 202 22 ]
+                    symbol [ Graphics %tmp.27 202 35 43 ];
+                    %tmp.27 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.28 202 44 61 ];
+                    %tmp.28 = getv %tmp.27 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.28;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 201; @position = 22; @symbol_constdef = [color,201,22,27]; @symbol_type<0> = [Number,201,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 202; @position = 22; @symbol_constdef = [background,202,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 205; @symbol_moduledef = [system_loc__subwindow,205,19,40]; ]
+            module system_loc__subwindow {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 205; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 206; @position = 22; @symbol_constdef = [exclude,206,22,29]; @symbol_type<0> = [Boolean,206,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 209; @symbol_moduledef = [system_icon_light__warning,209,19,45]; ]
+            module system_icon_light__warning {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 209; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 210; @position = 22; @symbol_constdef = [filename,210,22,30]; @symbol_type<0> = [String,210,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__warning.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 211; @position = 22; @symbol_constdef = [compress,211,22,30]; @symbol_type<0> = [String,211,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 212; @position = 22; @symbol_constdef = [dithering,212,22,31]; @symbol_type<0> = [String,212,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 213; @position = 22; @symbol_constdef = [automaticPalette,213,22,38]; @symbol_type<0> = [String,213,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 214; @position = 22; @symbol_constdef = [packingFormat,214,22,35]; @symbol_type<0> = [String,214,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 217; @symbol_moduledef = [confirmation_color_light__body,217,19,49]; ]
+            module confirmation_color_light__body {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 217; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 219 22 ]
+                    symbol [ Graphics %tmp.29 219 35 43 ];
+                    %tmp.29 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.30 219 44 61 ];
+                    %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.30;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 218; @position = 22; @symbol_constdef = [color,218,22,27]; @symbol_type<0> = [Number,218,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 219; @position = 22; @symbol_constdef = [background,219,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 222; @symbol_moduledef = [confirmation_icon_light__hint_keep,222,19,53]; ]
+            module confirmation_icon_light__hint_keep {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 222; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 223; @position = 22; @symbol_constdef = [filename,223,22,30]; @symbol_type<0> = [String,223,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_keep.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 224; @position = 22; @symbol_constdef = [dithering,224,22,31]; @symbol_type<0> = [String,224,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 225; @position = 22; @symbol_constdef = [packingFormat,225,22,35]; @symbol_type<0> = [String,225,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 228; @symbol_moduledef = [activity_color_light__background,228,19,51]; ]
+            module activity_color_light__background {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 228; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 229; @position = 22; @symbol_constdef = [color,229,22,27]; @symbol_type<0> = [Number,229,31,37]; ]
+                const color as Number = 0x000000;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 230; @position = 22; @symbol_constdef = [background,230,22,32]; @symbol_type<0> = [Number,230,36,42]; ]
+                const background as Number = 0x000000;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 233; @symbol_moduledef = [system_icon_positive__hint_button_right_top,233,19,62]; ]
+            module system_icon_positive__hint_button_right_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 233; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 234; @position = 22; @symbol_constdef = [filename,234,22,30]; @symbol_type<0> = [String,234,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_positive__hint_button_right_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 235; @position = 22; @symbol_constdef = [dithering,235,22,31]; @symbol_type<0> = [String,235,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 236; @position = 22; @symbol_constdef = [packingFormat,236,22,35]; @symbol_type<0> = [String,236,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 239; @symbol_moduledef = [system_size__screen,239,19,38]; ]
+            module system_size__screen {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 239; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 240; @position = 22; @symbol_constdef = [width,240,22,27]; @symbol_type<0> = [Number,240,31,37]; ]
+                const width as Number = 454;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 241; @position = 22; @symbol_constdef = [height,241,22,28]; @symbol_type<0> = [Number,241,32,38]; ]
+                const height as Number = 454;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 244; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,244,19,68]; ]
+            module system_icon_destructive__hint_button_right_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 244; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 245; @position = 22; @symbol_constdef = [filename,245,22,30]; @symbol_type<0> = [String,245,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__hint_button_right_bottom.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 246; @position = 22; @symbol_constdef = [dithering,246,22,31]; @symbol_type<0> = [String,246,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 247; @position = 22; @symbol_constdef = [packingFormat,247,22,35]; @symbol_type<0> = [String,247,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 250; @symbol_moduledef = [system_color_light__background,250,19,49]; ]
+            module system_color_light__background {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 250; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 251; @position = 22; @symbol_constdef = [color,251,22,27]; @symbol_type<0> = [Number,251,31,37]; ]
+                const color as Number = 0x000000;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 252; @position = 22; @symbol_constdef = [background,252,22,32]; @symbol_type<0> = [Number,252,36,42]; ]
+                const background as Number = 0x000000;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 255; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,255,19,65]; ]
+            module system_icon_destructive__hint_button_right_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 255; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 256; @position = 22; @symbol_constdef = [filename,256,22,30]; @symbol_type<0> = [String,256,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__hint_button_right_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 257; @position = 22; @symbol_constdef = [dithering,257,22,31]; @symbol_type<0> = [String,257,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 258; @position = 22; @symbol_constdef = [packingFormat,258,22,35]; @symbol_type<0> = [String,258,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 261; @symbol_moduledef = [confirmation_loc__hint_confirm,261,19,49]; ]
+            module confirmation_loc__hint_confirm {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 261; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 262; @position = 22; @symbol_constdef = [x,262,22,23]; @symbol_type<0> = [Number,262,27,33]; ]
+                const x as Number = 353;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 263; @position = 22; @symbol_constdef = [y,263,22,23]; @symbol_type<0> = [Number,263,27,33]; ]
+                const y as Number = 77;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 266; @symbol_moduledef = [activity_color_dark__text,266,19,44]; ]
+            module activity_color_dark__text {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 266; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 268 22 ]
+                    symbol [ Graphics %tmp.31 268 35 43 ];
+                    %tmp.31 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.32 268 44 61 ];
+                    %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.32;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 267; @position = 22; @symbol_constdef = [color,267,22,27]; @symbol_type<0> = [Number,267,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 268; @position = 22; @symbol_constdef = [background,268,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 271; @symbol_moduledef = [confirmation_input__keep,271,19,43]; ]
+            module confirmation_input__keep {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 271; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 272 22 ]
+                    symbol [ WatchUi %tmp.33 272 31 38 ];
+                    %tmp.33 = getm $.Toybox.WatchUi;
+                    symbol [ KEY_DOWN %tmp.34 272 39 47 ];
+                    %tmp.34 = getv %tmp.33 :KEY_DOWN;
+                    putv self :button %tmp.34;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 272; @position = 22; @symbol_constdef = [button,272,22,28]; ]
+                const button;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 275; @symbol_moduledef = [prompt_loc__body_with_title,275,19,46]; ]
+            module prompt_loc__body_with_title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 275; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 276; @position = 22; @symbol_constdef = [x,276,22,23]; @symbol_type<0> = [Number,276,27,33]; ]
+                const x as Number = 58;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 277; @position = 22; @symbol_constdef = [y,277,22,23]; @symbol_type<0> = [Number,277,27,33]; ]
+                const y as Number = 203;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 280; @symbol_moduledef = [system_icon_dark__search,280,19,43]; ]
+            module system_icon_dark__search {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 280; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 281; @position = 22; @symbol_constdef = [filename,281,22,30]; @symbol_type<0> = [String,281,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__search.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 282; @position = 22; @symbol_constdef = [compress,282,22,30]; @symbol_type<0> = [String,282,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 283; @position = 22; @symbol_constdef = [dithering,283,22,31]; @symbol_type<0> = [String,283,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 284; @position = 22; @symbol_constdef = [automaticPalette,284,22,38]; @symbol_type<0> = [String,284,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 285; @position = 22; @symbol_constdef = [packingFormat,285,22,35]; @symbol_type<0> = [String,285,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 288; @symbol_moduledef = [activity_color_light__text,288,19,45]; ]
+            module activity_color_light__text {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 288; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 290 22 ]
+                    symbol [ Graphics %tmp.35 290 35 43 ];
+                    %tmp.35 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.36 290 44 61 ];
+                    %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.36;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 289; @position = 22; @symbol_constdef = [color,289,22,27]; @symbol_type<0> = [Number,289,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 290; @position = 22; @symbol_constdef = [background,290,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 293; @symbol_moduledef = [confirmation_icon__hint_keep,293,19,47]; ]
+            module confirmation_icon__hint_keep {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 293; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 294; @position = 22; @symbol_constdef = [filename,294,22,30]; @symbol_type<0> = [String,294,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_keep.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 295; @position = 22; @symbol_constdef = [dithering,295,22,31]; @symbol_type<0> = [String,295,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 296; @position = 22; @symbol_constdef = [packingFormat,296,22,35]; @symbol_type<0> = [String,296,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 299; @symbol_moduledef = [system_icon_dark__save,299,19,41]; ]
+            module system_icon_dark__save {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 299; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 300; @position = 22; @symbol_constdef = [filename,300,22,30]; @symbol_type<0> = [String,300,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__save.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 301; @position = 22; @symbol_constdef = [compress,301,22,30]; @symbol_type<0> = [String,301,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 302; @position = 22; @symbol_constdef = [dithering,302,22,31]; @symbol_type<0> = [String,302,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 303; @position = 22; @symbol_constdef = [automaticPalette,303,22,38]; @symbol_type<0> = [String,303,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 304; @position = 22; @symbol_constdef = [packingFormat,304,22,35]; @symbol_type<0> = [String,304,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 307; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,307,19,67]; ]
+            module system_icon_destructive__hint_button_left_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 307; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 308; @position = 22; @symbol_constdef = [filename,308,22,30]; @symbol_type<0> = [String,308,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__hint_button_left_middle.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 309; @position = 22; @symbol_constdef = [dithering,309,22,31]; @symbol_type<0> = [String,309,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 310; @position = 22; @symbol_constdef = [packingFormat,310,22,35]; @symbol_type<0> = [String,310,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 313; @symbol_moduledef = [system_icon_light__search,313,19,44]; ]
+            module system_icon_light__search {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 313; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 314; @position = 22; @symbol_constdef = [filename,314,22,30]; @symbol_type<0> = [String,314,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__search.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 315; @position = 22; @symbol_constdef = [compress,315,22,30]; @symbol_type<0> = [String,315,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 316; @position = 22; @symbol_constdef = [dithering,316,22,31]; @symbol_type<0> = [String,316,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 317; @position = 22; @symbol_constdef = [automaticPalette,317,22,38]; @symbol_type<0> = [String,317,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 318; @position = 22; @symbol_constdef = [packingFormat,318,22,35]; @symbol_type<0> = [String,318,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 321; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,321,19,60]; ]
+            module system_icon_dark__hint_button_left_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 321; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 322; @position = 22; @symbol_constdef = [filename,322,22,30]; @symbol_type<0> = [String,322,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__hint_button_left_bottom.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 323; @position = 22; @symbol_constdef = [dithering,323,22,31]; @symbol_type<0> = [String,323,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 324; @position = 22; @symbol_constdef = [packingFormat,324,22,35]; @symbol_type<0> = [String,324,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 327; @symbol_moduledef = [system_icon_positive__hint_button_left_top,327,19,61]; ]
+            module system_icon_positive__hint_button_left_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 327; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 328; @position = 22; @symbol_constdef = [filename,328,22,30]; @symbol_type<0> = [String,328,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_positive__hint_button_left_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 329; @position = 22; @symbol_constdef = [dithering,329,22,31]; @symbol_type<0> = [String,329,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 330; @position = 22; @symbol_constdef = [packingFormat,330,22,35]; @symbol_type<0> = [String,330,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 333; @symbol_moduledef = [system_loc__hint_button_right_bottom,333,19,55]; ]
+            module system_loc__hint_button_right_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 333; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 334; @position = 22; @symbol_constdef = [x,334,22,23]; @symbol_type<0> = [Number,334,27,33]; ]
+                const x as Number = 353;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 335; @position = 22; @symbol_constdef = [y,335,22,23]; @symbol_type<0> = [Number,335,27,33]; ]
+                const y as Number = 291;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 338; @symbol_moduledef = [confirmation_icon_dark__hint_reject,338,19,54]; ]
+            module confirmation_icon_dark__hint_reject {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 338; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 339; @position = 22; @symbol_constdef = [filename,339,22,30]; @symbol_type<0> = [String,339,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_reject.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 340; @position = 22; @symbol_constdef = [dithering,340,22,31]; @symbol_type<0> = [String,340,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 341; @position = 22; @symbol_constdef = [packingFormat,341,22,35]; @symbol_type<0> = [String,341,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 344; @symbol_moduledef = [confirmation_color_dark__body,344,19,48]; ]
+            module confirmation_color_dark__body {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 344; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 346 22 ]
+                    symbol [ Graphics %tmp.37 346 35 43 ];
+                    %tmp.37 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.38 346 44 61 ];
+                    %tmp.38 = getv %tmp.37 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.38;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 345; @position = 22; @symbol_constdef = [color,345,22,27]; @symbol_type<0> = [Number,345,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 346; @position = 22; @symbol_constdef = [background,346,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 349; @symbol_moduledef = [confirmation_icon_light__hint_confirm,349,19,56]; ]
+            module confirmation_icon_light__hint_confirm {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 349; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 350; @position = 22; @symbol_constdef = [filename,350,22,30]; @symbol_type<0> = [String,350,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_completion.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 351; @position = 22; @symbol_constdef = [dithering,351,22,31]; @symbol_type<0> = [String,351,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 352; @position = 22; @symbol_constdef = [packingFormat,352,22,35]; @symbol_type<0> = [String,352,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 355; @symbol_moduledef = [prompt_color_dark__title,355,19,43]; ]
+            module prompt_color_dark__title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 355; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 357 22 ]
+                    symbol [ Graphics %tmp.39 357 35 43 ];
+                    %tmp.39 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.40 357 44 61 ];
+                    %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.40;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 356; @position = 22; @symbol_constdef = [color,356,22,27]; @symbol_type<0> = [Number,356,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 357; @position = 22; @symbol_constdef = [background,357,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 360; @symbol_moduledef = [system_icon_destructive__cancel,360,19,50]; ]
+            module system_icon_destructive__cancel {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 360; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 361; @position = 22; @symbol_constdef = [filename,361,22,30]; @symbol_type<0> = [String,361,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__cancel.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 362; @position = 22; @symbol_constdef = [dithering,362,22,31]; @symbol_type<0> = [String,362,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 363; @position = 22; @symbol_constdef = [packingFormat,363,22,35]; @symbol_type<0> = [String,363,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 366; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,366,19,62]; ]
+            module system_icon_light__hint_button_right_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 366; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 367; @position = 22; @symbol_constdef = [filename,367,22,30]; @symbol_type<0> = [String,367,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__hint_button_right_bottom.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 368; @position = 22; @symbol_constdef = [dithering,368,22,31]; @symbol_type<0> = [String,368,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 369; @position = 22; @symbol_constdef = [packingFormat,369,22,35]; @symbol_type<0> = [String,369,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 372; @symbol_moduledef = [prompt_loc__title,372,19,36]; ]
+            module prompt_loc__title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 372; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 373; @position = 22; @symbol_constdef = [x,373,22,23]; @symbol_type<0> = [Number,373,27,33]; ]
+                const x as Number = 47;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 374; @position = 22; @symbol_constdef = [y,374,22,23]; @symbol_type<0> = [Number,374,27,33]; ]
+                const y as Number = 101;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 377; @symbol_moduledef = [confirmation_font_enhanced_readability__body,377,19,63]; ]
+            module confirmation_font_enhanced_readability__body {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 377; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 378; @position = 22; @symbol_constdef = [exclude,378,22,29]; @symbol_type<0> = [Boolean,378,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 381; @symbol_moduledef = [prompt_color_light__title,381,19,44]; ]
+            module prompt_color_light__title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 381; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 383 22 ]
+                    symbol [ Graphics %tmp.41 383 35 43 ];
+                    %tmp.41 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.42 383 44 61 ];
+                    %tmp.42 = getv %tmp.41 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.42;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 382; @position = 22; @symbol_constdef = [color,382,22,27]; @symbol_type<0> = [Number,382,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 383; @position = 22; @symbol_constdef = [background,383,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 386; @symbol_moduledef = [system_icon_dark__hint_button_right_top,386,19,58]; ]
+            module system_icon_dark__hint_button_right_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 386; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 387; @position = 22; @symbol_constdef = [filename,387,22,30]; @symbol_type<0> = [String,387,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__hint_button_right_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 388; @position = 22; @symbol_constdef = [dithering,388,22,31]; @symbol_type<0> = [String,388,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 389; @position = 22; @symbol_constdef = [packingFormat,389,22,35]; @symbol_type<0> = [String,389,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 392; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,392,19,60]; ]
+            module system_icon_dark__hint_button_left_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 392; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 393; @position = 22; @symbol_constdef = [filename,393,22,30]; @symbol_type<0> = [String,393,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__hint_button_left_middle.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 394; @position = 22; @symbol_constdef = [dithering,394,22,31]; @symbol_type<0> = [String,394,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 395; @position = 22; @symbol_constdef = [packingFormat,395,22,35]; @symbol_type<0> = [String,395,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 398; @symbol_moduledef = [confirmation_icon_dark__hint_keep,398,19,52]; ]
+            module confirmation_icon_dark__hint_keep {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 398; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 399; @position = 22; @symbol_constdef = [filename,399,22,30]; @symbol_type<0> = [String,399,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_keep.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 400; @position = 22; @symbol_constdef = [dithering,400,22,31]; @symbol_type<0> = [String,400,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 401; @position = 22; @symbol_constdef = [packingFormat,401,22,35]; @symbol_type<0> = [String,401,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 404; @symbol_moduledef = [system_icon_light__cancel,404,19,44]; ]
+            module system_icon_light__cancel {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 404; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 405; @position = 22; @symbol_constdef = [filename,405,22,30]; @symbol_type<0> = [String,405,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__cancel.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 406; @position = 22; @symbol_constdef = [compress,406,22,30]; @symbol_type<0> = [String,406,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 407; @position = 22; @symbol_constdef = [dithering,407,22,31]; @symbol_type<0> = [String,407,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 408; @position = 22; @symbol_constdef = [automaticPalette,408,22,38]; @symbol_type<0> = [String,408,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 409; @position = 22; @symbol_constdef = [packingFormat,409,22,35]; @symbol_type<0> = [String,409,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 412; @symbol_moduledef = [confirmation_icon_light__hint_reject,412,19,55]; ]
+            module confirmation_icon_light__hint_reject {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 412; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 413; @position = 22; @symbol_constdef = [filename,413,22,30]; @symbol_type<0> = [String,413,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_reject.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 414; @position = 22; @symbol_constdef = [dithering,414,22,31]; @symbol_type<0> = [String,414,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 415; @position = 22; @symbol_constdef = [packingFormat,415,22,35]; @symbol_type<0> = [String,415,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 418; @symbol_moduledef = [system_icon_light__about,418,19,43]; ]
+            module system_icon_light__about {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 418; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 419; @position = 22; @symbol_constdef = [filename,419,22,30]; @symbol_type<0> = [String,419,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__about.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 420; @position = 22; @symbol_constdef = [compress,420,22,30]; @symbol_type<0> = [String,420,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 421; @position = 22; @symbol_constdef = [dithering,421,22,31]; @symbol_type<0> = [String,421,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 422; @position = 22; @symbol_constdef = [automaticPalette,422,22,38]; @symbol_type<0> = [String,422,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 423; @position = 22; @symbol_constdef = [packingFormat,423,22,35]; @symbol_type<0> = [String,423,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 426; @symbol_moduledef = [system_size__toast_icon,426,19,42]; ]
+            module system_size__toast_icon {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 426; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 427; @position = 22; @symbol_constdef = [scaleX,427,22,28]; @symbol_type<0> = [Number,427,32,38]; ]
+                const scaleX as Number = 59;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 428; @position = 22; @symbol_constdef = [scaleY,428,22,28]; @symbol_type<0> = [Number,428,32,38]; ]
+                const scaleY as Number = 59;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 429; @position = 22; @symbol_constdef = [scaleRelativeTo,429,22,37]; @symbol_type<0> = [String,429,41,47]; ]
+                const scaleRelativeTo as String = "screen";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 432; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,432,19,61]; ]
+            module system_icon_dark__hint_button_right_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 432; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 433; @position = 22; @symbol_constdef = [exclude,433,22,29]; @symbol_type<0> = [Boolean,433,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 436; @symbol_moduledef = [confirmation_icon__hint_reject,436,19,49]; ]
+            module confirmation_icon__hint_reject {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 436; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 437; @position = 22; @symbol_constdef = [filename,437,22,30]; @symbol_type<0> = [String,437,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_reject.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 438; @position = 22; @symbol_constdef = [dithering,438,22,31]; @symbol_type<0> = [String,438,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 439; @position = 22; @symbol_constdef = [packingFormat,439,22,35]; @symbol_type<0> = [String,439,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 442; @symbol_moduledef = [system_icon_light__hint_action_menu,442,19,54]; ]
+            module system_icon_light__hint_action_menu {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 442; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 443; @position = 22; @symbol_constdef = [filename,443,22,30]; @symbol_type<0> = [String,443,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__hint_button_right_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 444; @position = 22; @symbol_constdef = [dithering,444,22,31]; @symbol_type<0> = [String,444,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 445; @position = 22; @symbol_constdef = [packingFormat,445,22,35]; @symbol_type<0> = [String,445,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 448; @symbol_moduledef = [system_icon_light__hint_button_right_middle,448,19,62]; ]
+            module system_icon_light__hint_button_right_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 448; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 449; @position = 22; @symbol_constdef = [exclude,449,22,29]; @symbol_type<0> = [Boolean,449,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 452; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,452,19,68]; ]
+            module system_icon_destructive__hint_button_right_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 452; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 453; @position = 22; @symbol_constdef = [exclude,453,22,29]; @symbol_type<0> = [Boolean,453,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 456; @symbol_moduledef = [confirmation_loc__hint_reject,456,19,48]; ]
+            module confirmation_loc__hint_reject {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 456; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 457; @position = 22; @symbol_constdef = [x,457,22,23]; @symbol_type<0> = [Number,457,27,33]; ]
+                const x as Number = 15;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 458; @position = 22; @symbol_constdef = [y,458,22,23]; @symbol_type<0> = [Number,458,27,33]; ]
+                const y as Number = 291;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 461; @symbol_moduledef = [confirmation_icon_dark__hint_delete,461,19,54]; ]
+            module confirmation_icon_dark__hint_delete {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 461; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 462; @position = 22; @symbol_constdef = [filename,462,22,30]; @symbol_type<0> = [String,462,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_delete.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 463; @position = 22; @symbol_constdef = [dithering,463,22,31]; @symbol_type<0> = [String,463,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 464; @position = 22; @symbol_constdef = [packingFormat,464,22,35]; @symbol_type<0> = [String,464,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 467; @symbol_moduledef = [activity_color_dark__background,467,19,50]; ]
+            module activity_color_dark__background {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 467; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 468; @position = 22; @symbol_constdef = [color,468,22,27]; @symbol_type<0> = [Number,468,31,37]; ]
+                const color as Number = 0x000000;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 469; @position = 22; @symbol_constdef = [background,469,22,32]; @symbol_type<0> = [Number,469,36,42]; ]
+                const background as Number = 0x000000;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 472; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,472,19,61]; ]
+            module system_icon_light__hint_button_left_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 472; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 473; @position = 22; @symbol_constdef = [filename,473,22,30]; @symbol_type<0> = [String,473,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__hint_button_left_bottom.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 474; @position = 22; @symbol_constdef = [dithering,474,22,31]; @symbol_type<0> = [String,474,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 475; @position = 22; @symbol_constdef = [packingFormat,475,22,35]; @symbol_type<0> = [String,475,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 478; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,478,19,64]; ]
+            module system_icon_positive__hint_button_left_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 478; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 479; @position = 22; @symbol_constdef = [filename,479,22,30]; @symbol_type<0> = [String,479,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_positive__hint_button_left_middle.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 480; @position = 22; @symbol_constdef = [dithering,480,22,31]; @symbol_type<0> = [String,480,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 481; @position = 22; @symbol_constdef = [packingFormat,481,22,35]; @symbol_type<0> = [String,481,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 484; @symbol_moduledef = [system_size__menu_icon,484,19,41]; ]
+            module system_size__menu_icon {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 484; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 485; @position = 22; @symbol_constdef = [scaleX,485,22,28]; @symbol_type<0> = [Number,485,32,38]; ]
+                const scaleX as Number = 74;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 486; @position = 22; @symbol_constdef = [scaleY,486,22,28]; @symbol_type<0> = [Number,486,32,38]; ]
+                const scaleY as Number = 114;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 487; @position = 22; @symbol_constdef = [scaleRelativeTo,487,22,37]; @symbol_type<0> = [String,487,41,47]; ]
+                const scaleRelativeTo as String = "screen";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 490; @symbol_moduledef = [system_icon_destructive__warning,490,19,51]; ]
+            module system_icon_destructive__warning {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 490; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 491; @position = 22; @symbol_constdef = [filename,491,22,30]; @symbol_type<0> = [String,491,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_destructive__warning.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 492; @position = 22; @symbol_constdef = [dithering,492,22,31]; @symbol_type<0> = [String,492,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 493; @position = 22; @symbol_constdef = [packingFormat,493,22,35]; @symbol_type<0> = [String,493,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 496; @symbol_moduledef = [system_loc__hint_button_right_middle,496,19,55]; ]
+            module system_loc__hint_button_right_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 496; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 497; @position = 22; @symbol_constdef = [exclude,497,22,29]; @symbol_type<0> = [Boolean,497,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 500; @symbol_moduledef = [system_icon_dark__cancel,500,19,43]; ]
+            module system_icon_dark__cancel {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 500; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 501; @position = 22; @symbol_constdef = [filename,501,22,30]; @symbol_type<0> = [String,501,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__cancel.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 502; @position = 22; @symbol_constdef = [compress,502,22,30]; @symbol_type<0> = [String,502,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 503; @position = 22; @symbol_constdef = [dithering,503,22,31]; @symbol_type<0> = [String,503,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 504; @position = 22; @symbol_constdef = [automaticPalette,504,22,38]; @symbol_type<0> = [String,504,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 505; @position = 22; @symbol_constdef = [packingFormat,505,22,35]; @symbol_type<0> = [String,505,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 508; @symbol_moduledef = [prompt_size__body_with_title,508,19,47]; ]
+            module prompt_size__body_with_title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 508; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 509; @position = 22; @symbol_constdef = [width,509,22,27]; @symbol_type<0> = [Number,509,31,37]; ]
+                const width as Number = 338;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 510; @position = 22; @symbol_constdef = [height,510,22,28]; @symbol_type<0> = [Number,510,32,38]; ]
+                const height as Number = 173;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 513; @symbol_moduledef = [system_loc__hint_button_right_top,513,19,52]; ]
+            module system_loc__hint_button_right_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 513; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 514; @position = 22; @symbol_constdef = [x,514,22,23]; @symbol_type<0> = [Number,514,27,33]; ]
+                const x as Number = 353;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 515; @position = 22; @symbol_constdef = [y,515,22,23]; @symbol_type<0> = [Number,515,27,33]; ]
+                const y as Number = 77;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 518; @symbol_moduledef = [system_color_light__text,518,19,43]; ]
+            module system_color_light__text {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 518; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 520 22 ]
+                    symbol [ Graphics %tmp.43 520 35 43 ];
+                    %tmp.43 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.44 520 44 61 ];
+                    %tmp.44 = getv %tmp.43 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.44;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 519; @position = 22; @symbol_constdef = [color,519,22,27]; @symbol_type<0> = [Number,519,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 520; @position = 22; @symbol_constdef = [background,520,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 523; @symbol_moduledef = [system_icon_light__check,523,19,43]; ]
+            module system_icon_light__check {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 523; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 524; @position = 22; @symbol_constdef = [filename,524,22,30]; @symbol_type<0> = [String,524,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__check.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 525; @position = 22; @symbol_constdef = [compress,525,22,30]; @symbol_type<0> = [String,525,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 526; @position = 22; @symbol_constdef = [dithering,526,22,31]; @symbol_type<0> = [String,526,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 527; @position = 22; @symbol_constdef = [automaticPalette,527,22,38]; @symbol_type<0> = [String,527,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 528; @position = 22; @symbol_constdef = [packingFormat,528,22,35]; @symbol_type<0> = [String,528,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 531; @symbol_moduledef = [confirmation_input__reject,531,19,45]; ]
+            module confirmation_input__reject {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 531; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 532 22 ]
+                    symbol [ WatchUi %tmp.45 532 31 38 ];
+                    %tmp.45 = getm $.Toybox.WatchUi;
+                    symbol [ KEY_DOWN %tmp.46 532 39 47 ];
+                    %tmp.46 = getv %tmp.45 :KEY_DOWN;
+                    putv self :button %tmp.46;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 532; @position = 22; @symbol_constdef = [button,532,22,28]; ]
+                const button;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 535; @symbol_moduledef = [system_icon_light__revert,535,19,44]; ]
+            module system_icon_light__revert {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 535; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 536; @position = 22; @symbol_constdef = [filename,536,22,30]; @symbol_type<0> = [String,536,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__revert.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 537; @position = 22; @symbol_constdef = [compress,537,22,30]; @symbol_type<0> = [String,537,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 538; @position = 22; @symbol_constdef = [dithering,538,22,31]; @symbol_type<0> = [String,538,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 539; @position = 22; @symbol_constdef = [automaticPalette,539,22,38]; @symbol_type<0> = [String,539,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 540; @position = 22; @symbol_constdef = [packingFormat,540,22,35]; @symbol_type<0> = [String,540,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 543; @symbol_moduledef = [system_size__subwindow,543,19,41]; ]
+            module system_size__subwindow {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 543; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 544; @position = 22; @symbol_constdef = [exclude,544,22,29]; @symbol_type<0> = [Boolean,544,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 547; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,547,19,64]; ]
+            module system_icon_positive__hint_button_left_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 547; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 548; @position = 22; @symbol_constdef = [filename,548,22,30]; @symbol_type<0> = [String,548,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_positive__hint_button_left_bottom.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 549; @position = 22; @symbol_constdef = [dithering,549,22,31]; @symbol_type<0> = [String,549,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 550; @position = 22; @symbol_constdef = [packingFormat,550,22,35]; @symbol_type<0> = [String,550,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 553; @symbol_moduledef = [system_icon_dark__check,553,19,42]; ]
+            module system_icon_dark__check {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 553; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 554; @position = 22; @symbol_constdef = [filename,554,22,30]; @symbol_type<0> = [String,554,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__check.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 555; @position = 22; @symbol_constdef = [compress,555,22,30]; @symbol_type<0> = [String,555,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 556; @position = 22; @symbol_constdef = [dithering,556,22,31]; @symbol_type<0> = [String,556,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 557; @position = 22; @symbol_constdef = [automaticPalette,557,22,38]; @symbol_type<0> = [String,557,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 558; @position = 22; @symbol_constdef = [packingFormat,558,22,35]; @symbol_type<0> = [String,558,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 561; @symbol_moduledef = [confirmation_loc__hint_keep,561,19,46]; ]
+            module confirmation_loc__hint_keep {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 561; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 562; @position = 22; @symbol_constdef = [x,562,22,23]; @symbol_type<0> = [Number,562,27,33]; ]
+                const x as Number = 15;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 563; @position = 22; @symbol_constdef = [y,563,22,23]; @symbol_type<0> = [Number,563,27,33]; ]
+                const y as Number = 291;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 566; @symbol_moduledef = [confirmation_loc__hint_delete,566,19,48]; ]
+            module confirmation_loc__hint_delete {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 566; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 567; @position = 22; @symbol_constdef = [x,567,22,23]; @symbol_type<0> = [Number,567,27,33]; ]
+                const x as Number = 353;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 568; @position = 22; @symbol_constdef = [y,568,22,23]; @symbol_type<0> = [Number,568,27,33]; ]
+                const y as Number = 77;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 571; @symbol_moduledef = [system_icon_positive__hint_action_menu,571,19,57]; ]
+            module system_icon_positive__hint_action_menu {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 571; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 572; @position = 22; @symbol_constdef = [filename,572,22,30]; @symbol_type<0> = [String,572,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_positive__hint_button_right_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 573; @position = 22; @symbol_constdef = [dithering,573,22,31]; @symbol_type<0> = [String,573,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 574; @position = 22; @symbol_constdef = [packingFormat,574,22,35]; @symbol_type<0> = [String,574,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 577; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,577,19,65]; ]
+            module system_icon_positive__hint_button_right_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 577; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 578; @position = 22; @symbol_constdef = [exclude,578,22,29]; @symbol_type<0> = [Boolean,578,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 581; @symbol_moduledef = [system_icon_light__hint_button_left_middle,581,19,61]; ]
+            module system_icon_light__hint_button_left_middle {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 581; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 582; @position = 22; @symbol_constdef = [filename,582,22,30]; @symbol_type<0> = [String,582,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__hint_button_left_middle.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 583; @position = 22; @symbol_constdef = [dithering,583,22,31]; @symbol_type<0> = [String,583,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 584; @position = 22; @symbol_constdef = [packingFormat,584,22,35]; @symbol_type<0> = [String,584,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 587; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,587,19,61]; ]
+            module system_icon_dark__hint_button_right_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 587; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 588; @position = 22; @symbol_constdef = [filename,588,22,30]; @symbol_type<0> = [String,588,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__hint_button_right_bottom.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 589; @position = 22; @symbol_constdef = [dithering,589,22,31]; @symbol_type<0> = [String,589,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 590; @position = 22; @symbol_constdef = [packingFormat,590,22,35]; @symbol_type<0> = [String,590,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 593; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,593,19,65]; ]
+            module system_icon_positive__hint_button_right_bottom {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 593; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 594; @position = 22; @symbol_constdef = [filename,594,22,30]; @symbol_type<0> = [String,594,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_positive__hint_button_right_bottom.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 595; @position = 22; @symbol_constdef = [dithering,595,22,31]; @symbol_type<0> = [String,595,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 596; @position = 22; @symbol_constdef = [packingFormat,596,22,35]; @symbol_type<0> = [String,596,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 599; @symbol_moduledef = [system_icon_dark__revert,599,19,43]; ]
+            module system_icon_dark__revert {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 599; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 600; @position = 22; @symbol_constdef = [filename,600,22,30]; @symbol_type<0> = [String,600,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__revert.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 601; @position = 22; @symbol_constdef = [compress,601,22,30]; @symbol_type<0> = [String,601,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 602; @position = 22; @symbol_constdef = [dithering,602,22,31]; @symbol_type<0> = [String,602,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 603; @position = 22; @symbol_constdef = [automaticPalette,603,22,38]; @symbol_type<0> = [String,603,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 604; @position = 22; @symbol_constdef = [packingFormat,604,22,35]; @symbol_type<0> = [String,604,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 607; @symbol_moduledef = [confirmation_icon_light__hint_delete,607,19,55]; ]
+            module confirmation_icon_light__hint_delete {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 607; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 608; @position = 22; @symbol_constdef = [filename,608,22,30]; @symbol_type<0> = [String,608,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_delete.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 609; @position = 22; @symbol_constdef = [dithering,609,22,31]; @symbol_type<0> = [String,609,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 610; @position = 22; @symbol_constdef = [packingFormat,610,22,35]; @symbol_type<0> = [String,610,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 613; @symbol_moduledef = [system_icon_dark__question,613,19,45]; ]
+            module system_icon_dark__question {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 613; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 614; @position = 22; @symbol_constdef = [filename,614,22,30]; @symbol_type<0> = [String,614,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__question.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 615; @position = 22; @symbol_constdef = [compress,615,22,30]; @symbol_type<0> = [String,615,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 616; @position = 22; @symbol_constdef = [dithering,616,22,31]; @symbol_type<0> = [String,616,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 617; @position = 22; @symbol_constdef = [automaticPalette,617,22,38]; @symbol_type<0> = [String,617,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 618; @position = 22; @symbol_constdef = [packingFormat,618,22,35]; @symbol_type<0> = [String,618,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 621; @symbol_moduledef = [system_icon_light__discard,621,19,45]; ]
+            module system_icon_light__discard {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 621; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 622; @position = 22; @symbol_constdef = [filename,622,22,30]; @symbol_type<0> = [String,622,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__discard.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 623; @position = 22; @symbol_constdef = [compress,623,22,30]; @symbol_type<0> = [String,623,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 624; @position = 22; @symbol_constdef = [dithering,624,22,31]; @symbol_type<0> = [String,624,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 625; @position = 22; @symbol_constdef = [automaticPalette,625,22,38]; @symbol_type<0> = [String,625,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 626; @position = 22; @symbol_constdef = [packingFormat,626,22,35]; @symbol_type<0> = [String,626,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 629; @symbol_moduledef = [device_info,629,19,30]; ]
+            module device_info {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 629; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 631 22 ]
+                    symbol [ Toybox %tmp.48 631 36 42 ];
+                    %tmp.48 = getv ? :Toybox;
+                    symbol [ System %tmp.49 631 43 49 ];
+                    %tmp.49 = getv %tmp.48 :System;
+                    symbol [ SCREEN_SHAPE_ROUND %tmp.50 631 50 68 ];
+                    %tmp.50 = getv %tmp.49 :SCREEN_SHAPE_ROUND;
+                    putv self :screenShape %tmp.50;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 630; @position = 22; @symbol_constdef = [screenWidth,630,22,33]; @symbol_type<0> = [Number,630,37,43]; ]
+                const screenWidth as Number = 454;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 631; @position = 22; @symbol_constdef = [screenShape,631,22,33]; ]
+                const screenShape;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 632; @position = 22; @symbol_constdef = [hasNightMode,632,22,34]; @symbol_type<0> = [Boolean,632,38,45]; ]
+                const hasNightMode as Boolean = false;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 633; @position = 22; @symbol_constdef = [hasGpu,633,22,28]; @symbol_type<0> = [Boolean,633,32,39]; ]
+                const hasGpu as Boolean = true;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 634; @position = 22; @symbol_constdef = [screenHeight,634,22,34]; @symbol_type<0> = [Number,634,38,44]; ]
+                const screenHeight as Number = 454;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 635; @position = 22; @symbol_constdef = [hasTouchScreen,635,22,36]; @symbol_type<0> = [Boolean,635,40,47]; ]
+                const hasTouchScreen as Boolean = true;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 636; @position = 22; @symbol_constdef = [hasEnhancedReadabilityMode,636,22,48]; @symbol_type<0> = [Boolean,636,52,59]; ]
+                const hasEnhancedReadabilityMode as Boolean = false;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 639; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,639,19,55]; ]
+            module confirmation_icon_dark__hint_confirm {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 639; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 640; @position = 22; @symbol_constdef = [filename,640,22,30]; @symbol_type<0> = [String,640,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_completion.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 641; @position = 22; @symbol_constdef = [dithering,641,22,31]; @symbol_type<0> = [String,641,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 642; @position = 22; @symbol_constdef = [packingFormat,642,22,35]; @symbol_type<0> = [String,642,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 645; @symbol_moduledef = [prompt_font__body_no_title,645,19,45]; ]
+            module prompt_font__body_no_title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 645; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 646 22 ]
+                    symbol [ Graphics %tmp.51 646 38 46 ];
+                    %tmp.51 = getm $.Toybox.Graphics;
+                    symbol [ TEXT_JUSTIFY_CENTER %tmp.52 646 47 66 ];
+                    %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_CENTER;
+                    symbol [ Graphics %tmp.53 646 67 75 ];
+                    %tmp.53 = getm $.Toybox.Graphics;
+                    symbol [ TEXT_JUSTIFY_VCENTER %tmp.54 646 76 96 ];
+                    %tmp.54 = getv %tmp.53 :TEXT_JUSTIFY_VCENTER;
+                    %tmp.55 = bitor %tmp.52 %tmp.54;
+                    putv self :justification %tmp.55;
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 647 22 ]
+                    symbol [ Graphics %tmp.56 647 29 37 ];
+                    %tmp.56 = getm $.Toybox.Graphics;
+                    symbol [ FONT_XTINY %tmp.57 647 38 48 ];
+                    %tmp.57 = getv %tmp.56 :FONT_XTINY;
+                    putv self :font %tmp.57;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 646; @position = 22; @symbol_constdef = [justification,646,22,35]; ]
+                const justification;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 647; @position = 22; @symbol_constdef = [font,647,22,26]; ]
+                const font;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 650; @symbol_moduledef = [prompt_size__title_icon,650,19,42]; ]
+            module prompt_size__title_icon {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 650; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 651; @position = 22; @symbol_constdef = [scaleX,651,22,28]; @symbol_type<0> = [Float,651,32,37]; ]
+                const scaleX as Float = 0.15;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 652; @position = 22; @symbol_constdef = [scaleRelativeTo,652,22,37]; @symbol_type<0> = [String,652,41,47]; ]
+                const scaleRelativeTo as String = "screen";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 655; @symbol_moduledef = [system_icon_dark__warning,655,19,44]; ]
+            module system_icon_dark__warning {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 655; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 656; @position = 22; @symbol_constdef = [filename,656,22,30]; @symbol_type<0> = [String,656,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_dark__warning.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 657; @position = 22; @symbol_constdef = [compress,657,22,30]; @symbol_type<0> = [String,657,34,40]; ]
+                const compress as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 658; @position = 22; @symbol_constdef = [dithering,658,22,31]; @symbol_type<0> = [String,658,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 659; @position = 22; @symbol_constdef = [automaticPalette,659,22,38]; @symbol_type<0> = [String,659,42,48]; ]
+                const automaticPalette as String = "true";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 660; @position = 22; @symbol_constdef = [packingFormat,660,22,35]; @symbol_type<0> = [String,660,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 663; @symbol_moduledef = [prompt_loc__title_icon,663,19,41]; ]
+            module prompt_loc__title_icon {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 663; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 664; @position = 22; @symbol_constdef = [x,664,22,23]; @symbol_type<0> = [Number,664,27,33]; ]
+                const x as Number = 227;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 665; @position = 22; @symbol_constdef = [y,665,22,23]; @symbol_type<0> = [Number,665,27,33]; ]
+                const y as Number = 148;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 666; @position = 22; @symbol_constdef = [horizontalJustification,666,22,45]; @symbol_type<0> = [String,666,49,55]; ]
+                const horizontalJustification as String = "center";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 667; @position = 22; @symbol_constdef = [verticalJustification,667,22,43]; @symbol_type<0> = [String,667,47,53]; ]
+                const verticalJustification as String = "center";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 670; @symbol_moduledef = [prompt_font_enhanced_readability__title,670,19,58]; ]
+            module prompt_font_enhanced_readability__title {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 670; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 671; @position = 22; @symbol_constdef = [exclude,671,22,29]; @symbol_type<0> = [Boolean,671,33,40]; ]
+                const exclude as Boolean = true;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 674; @symbol_moduledef = [prompt_color_dark__body,674,19,42]; ]
+            module prompt_color_dark__body {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 674; ]
+                <init> {
+[ "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen" 676 22 ]
+                    symbol [ Graphics %tmp.58 676 35 43 ];
+                    %tmp.58 = getm $.Toybox.Graphics;
+                    symbol [ COLOR_TRANSPARENT %tmp.59 676 44 61 ];
+                    %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+                    putv self :background %tmp.59;
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 675; @position = 22; @symbol_constdef = [color,675,22,27]; @symbol_type<0> = [Number,675,31,37]; ]
+                const color as Number = 0xFFFFFF;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 676; @position = 22; @symbol_constdef = [background,676,22,32]; ]
+                const background;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 679; @symbol_moduledef = [confirmation_icon__hint_delete,679,19,49]; ]
+            module confirmation_icon__hint_delete {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 679; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 680; @position = 22; @symbol_constdef = [filename,680,22,30]; @symbol_type<0> = [String,680,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/confirmation_icon__hint_delete.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 681; @position = 22; @symbol_constdef = [dithering,681,22,31]; @symbol_type<0> = [String,681,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 682; @position = 22; @symbol_constdef = [packingFormat,682,22,35]; @symbol_type<0> = [String,682,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 685; @symbol_moduledef = [system_icon_light__hint_button_right_top,685,19,59]; ]
+            module system_icon_light__hint_button_right_top {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 685; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 686; @position = 22; @symbol_constdef = [filename,686,22,30]; @symbol_type<0> = [String,686,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_light__hint_button_right_top.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 687; @position = 22; @symbol_constdef = [dithering,687,22,31]; @symbol_type<0> = [String,687,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 688; @position = 22; @symbol_constdef = [packingFormat,688,22,35]; @symbol_type<0> = [String,688,39,45]; ]
+                const packingFormat as String = "png";
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 691; @symbol_moduledef = [confirmation_size__body,691,19,42]; ]
+            module confirmation_size__body {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 691; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 692; @position = 22; @symbol_constdef = [width,692,22,27]; @symbol_type<0> = [Number,692,31,37]; ]
+                const width as Number = 313;
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 693; @position = 22; @symbol_constdef = [height,693,22,28]; @symbol_type<0> = [Number,693,32,38]; ]
+                const height as Number = 313;
+            }
+            [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 696; @symbol_moduledef = [system_icon_positive__check,696,19,46]; ]
+            module system_icon_positive__check {
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 696; ]
+                <init> {
+                }
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 697; @position = 22; @symbol_constdef = [filename,697,22,30]; @symbol_type<0> = [String,697,34,40]; ]
+                const filename as String = "/Users/rtk/Library/Application Support/Garmin/ConnectIQ/Devices/d2mach2pro/system_icon_positive__check.svg";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 698; @position = 22; @symbol_constdef = [dithering,698,22,31]; @symbol_type<0> = [String,698,35,41]; ]
+                const dithering as String = "none";
+                [ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 699; @position = 22; @symbol_constdef = [packingFormat,699,22,35]; @symbol_type<0> = [String,699,39,45]; ]
+                const packingFormat as String = "png";
+            }
+        }
+    }
+}
+[ @file = "/Users/rtk/Documents/reactive-monkey/bin/gen/006-B5056-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
